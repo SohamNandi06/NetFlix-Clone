@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(35, 34, 34);
+    opacity: 0.98;
+}
+.main{
+    margin: 2vw;
+    border-radius: 4%;
+    background-repeat: no-repeat;
+    background-size: max(1400px,100vw);
+    background-position: center center;
+    background-image: url(assets/images/bg.jpg);
+    height: 75vh;
+    z-index: 0;
+    position: relative;
+    top: 0vh;
+    
+}
+.main .box{
+    border-radius: 4%;
+    height: 75vh;
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.8;
+    background-color: black;
+}
+nav{
+    position: relative;
+    top: 2vh;
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+nav img{
+    position: relative;
+    align-items: left;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    margin-top: 40px;
+}
+.hero> :first-child{
+    font-weight: 900;
+    font-size: 64px;
+    text-align: center;
+}
+.hero :nth-child(3){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.hero :nth-child(5){
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn{
+    padding: 3px 8px;
+    border-radius: 30px;
+    font-family:"Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif ;
+    width: 100px;
+    height: 35px;
+}
+.btn-lang{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-color: white;
+    font-size: 16px;
+}
+.btn-white{
+    background-color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border-color: white;
+}
+.btn-red{
+    background-color: red;
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    height: 50px;
+    width: 200px;
+}
+.textbox{
+    height:50px ;
+    width: 400px;
+    border-radius: 30px;
+    text-indent: 20px;
+}
